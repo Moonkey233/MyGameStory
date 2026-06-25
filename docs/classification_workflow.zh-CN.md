@@ -132,6 +132,48 @@ python scripts/build_views.py
 python scripts/validate_data.py
 ```
 
+## JSON 分类源导入格式
+
+如果来源已经是 `分类 slug -> 游戏名 -> steam:<appid>`，推荐用 JSON。appid 是真值，游戏名只用于别名和审计；脚本会结合现有 `games.jsonl`、Steam owned CSV、Steam appdetails 来纠正标题。
+
+格式可以是一个 JSON 对象：
+
+```json
+{
+  "role_playing": {
+    "ocr_collection": "B.03-🧙角色扮演",
+    "items": {
+      "艾尔登法环": "steam:1245620",
+      "博德之门3": "steam:1086940"
+    }
+  }
+}
+```
+
+也可以是多个顶层 JSON 对象连续拼接在同一个文件里。导入命令：
+
+```powershell
+python scripts/import_classification_json.py --input data\imports\ocr\classification_raw.json --timestamp 20260626T010000+0800 --fetch-appdetails
+```
+
+检查 preview 后应用：
+
+```powershell
+python scripts/import_classification_json.py --timestamp 20260626T010000+0800 --apply-preview
+python scripts/build_views.py
+python scripts/validate_data.py
+```
+
+脚本会生成这些 preview：
+
+- `data/manual/games.preview.<timestamp>.jsonl`
+- `data/manual/aliases.preview.<timestamp>.jsonl`
+- `data/manual/name_resolution.preview.<timestamp>.jsonl`
+- `data/manual/classifications.preview.<timestamp>.jsonl`
+- `data/suggestions/pending_review.preview.<timestamp>.jsonl`
+
+如果 appid 已有正式 B 类且与 JSON 分类冲突，脚本只写入 pending review，不覆盖正式分类。
+
 ## A 类状态怎么导入
 
 当前 `scripts/import_classification_text.py` 主要用于 B 类主玩法分类。A 类状态和收藏建议先不要和 B 类混在一轮里。

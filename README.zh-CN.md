@@ -72,6 +72,13 @@ python scripts/import_classification_text.py --input data\imports\ocr\ocr_text.t
 
 这个脚本只把安全匹配写入分类 preview；未解析、冲突或重复项会进入 review preview。
 
+如果来源是 JSON，且已经包含分类 slug 和明确的 `steam:<appid>` 映射，使用 JSON 导入器。它支持多个顶层 JSON 对象连续拼接的文件，并以 appid 作为身份真值：
+
+```powershell
+python scripts/import_classification_json.py --input data\imports\ocr\classification_raw.json --timestamp 20260626T010000+0800 --fetch-appdetails
+python scripts/import_classification_json.py --timestamp 20260626T010000+0800 --apply-preview
+```
+
 正式写入 `data/manual/classifications.jsonl` 前必须先生成 preview。确认没有误匹配和冲突后再 apply。
 
 ## 人工确认分类

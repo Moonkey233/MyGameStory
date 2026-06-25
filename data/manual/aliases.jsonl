@@ -33,3 +33,710 @@
 {"game_id":"steam:225840","aliases":["Sven Co-op"],"source":"manual_confirmed_name_resolution","updated_at":"2026-06-25T21:42:05+08:00"}
 {"game_id":"steam:312990","aliases":["The Expendabros"],"source":"manual_confirmed_name_resolution","updated_at":"2026-06-25T21:42:05+08:00"}
 {"game_id":"steam:377300","aliases":["Thunder Tier One"],"source":"manual_confirmed_name_resolution","updated_at":"2026-06-25T21:42:05+08:00"}
+{"game_id":"steam:1003480","aliases":["Fireboy & Watergirl: Elements"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1009560","aliases":["The Tenants"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1016920","aliases":["Unrailed!"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1024640","aliases":["Fluffy Store","AppGameKit Studio"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1030300","aliases":["Hollow Knight: Silksong"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1030840","aliases":["《四海兄弟：最终版》","Mafia: Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1031120","aliases":["面包房模拟器","Bakery Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1031270","aliases":["农场生活","Farming Life"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1036950","aliases":["Super Jigsaw Puzzle: Generations"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1040230","aliases":["奇妙探险队 2 Curious Expedition 2","Curious Expedition 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1041720","aliases":["Kingdoms of Amalur: Re-Reckoning"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1044720","aliases":["Farthest Frontier"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1046030","aliases":["ISLANDERS"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1049280","aliases":["朝圣者 (Pilgrims)","Pilgrims"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1049410","aliases":["超阈限空间 Superliminal","Superliminal"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:10500","aliases":["全面战争：帝国 - 终极版","Total War: EMPIRE - Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1052990","aliases":["怪兽远征","A Monster's Expedition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1054430","aliases":["Fling to the Finish 终极拉扯","Fling to the Finish"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1054490","aliases":["WINGSPAN（展翅翱翔）","Wingspan"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1055540","aliases":["A Short Hike"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:105600","aliases":["Terraria"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1056610","aliases":["Heal"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1057090","aliases":["Ori and the Will of the Wisps"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1062090","aliases":["海狸浮生记 Timberborn","Timberborn"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1065970","aliases":["spice&Wolf VR","狼と香辛料VR/Spice&WolfVR"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1066780","aliases":["Transport Fever 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1070710","aliases":["Kind Words","Kind Words (lo fi chill beats to write to)"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1071130","aliases":["The Procession to Calvary"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1071870","aliases":["知只大冒险","Biped"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1080020","aliases":["电工模拟器","Electrician Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1082430","aliases":["历历在目","Before Your Eyes"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1084160","aliases":["Jagged Alliance 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1084600","aliases":["沙石镇时光","My Time at Sandrock"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1085220","aliases":["Figment 2: Creed Valley"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1085510","aliases":["Garfield Kart - Furious Racing"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:108600","aliases":["Project Zomboid"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1086940","aliases":["博德之门3","Baldur's Gate 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1089980","aliases":["The Henry Stickmin Collection"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1091500","aliases":["赛博朋克 2077","Cyberpunk 2077"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1092790","aliases":["邪恶冥刻","Inscryption"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1093910","aliases":["黑森町绮谭","Tales of the Black Forest"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1096410","aliases":["Vampire: The Masquerade - Coteries of New York"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1099640","aliases":["Jack Move"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1102130","aliases":["Florence"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1102190","aliases":["Monster Train"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1107300","aliases":["Down in Bermuda"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1113000","aliases":["女神异闻录4 黄金版","Persona 4 Golden"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1114940","aliases":["I Wanna Maker"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1115690","aliases":["遵命，陛下","Yes, Your Grace","遵命, 陛下"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1116580","aliases":["我的阴暗面","Shady Part of Me"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1118200","aliases":["People Playground"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1118310","aliases":["RetroArch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1119730","aliases":["Ranch Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1123450","aliases":["Chicory: A Colorful Tale"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1124260","aliases":["Snowtopia"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1127500","aliases":["Mini Motorways"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1130410","aliases":["Cyber Hook"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1135690","aliases":["Unpacking"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1140270","aliases":["Monster Prom 2: Monster Camp"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1144400","aliases":["千恋＊万花","Senren＊Banka"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1145960","aliases":["The White Door"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1147550","aliases":["不予播出 (Not For Broadcast)","Not For Broadcast"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1150530","aliases":["荒野枪巫","Wizard with a Gun"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1150690","aliases":["OMORI"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1151340","aliases":["Fallout 76"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1158890","aliases":["White Shadows"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1161170","aliases":["山海旅人","The Rewinder"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1167630","aliases":["Teardown"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1167750","aliases":["The Lamplighters League"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1169040","aliases":["奈斯启示录 Necesse","Necesse"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1172450","aliases":["Carto"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1174180","aliases":["Red Dead Redemption 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1184370","aliases":["Pathfinder: Wrath of the Righteous - Enhanced Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1186640","aliases":["南瓜杰克","Pumpkin Jack"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1189490","aliases":["觅长生"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1191900","aliases":["Say No! More"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1195290","aliases":["笼中窥梦 Moncage","Moncage"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1196630","aliases":["尼可梦：灭绝","Nexomon: Extinction"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1202200","aliases":["恐龙牧场","Paleo Pines"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1204050","aliases":["Pixel Studio - best pixel art editor"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1206610","aliases":["橡胶强盗: Rubber Bandits","Rubber Bandits"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1207650","aliases":["Suzerain"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1210320","aliases":["药剂工艺：炼金模拟器","Potion Craft: Alchemist Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1213700","aliases":["Spirit of the North"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1214470","aliases":["Hotel Renovator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1222140","aliases":["底特律：化身为人","Detroit: Become Human"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1222210","aliases":["超逼真的攻城模拟器","Extremely Realistic Siege Warfare Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1222670","aliases":["The Sims™ 4"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1222680","aliases":["《Need for Speed™ Heat","Need for Speed™ Heat"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1222700","aliases":["A Way Out"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1227890","aliases":["夏日狂想曲：乡间的难忘回忆","Summer Memories"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1240210","aliases":["根本没有游戏","There Is No Game: Wrong Dimension"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1244460","aliases":["侏罗纪世界：进化 2","Jurassic World Evolution 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1245620","aliases":["艾尔登法环"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1250760","aliases":["海沙风云 Far Away","Far Away"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1252830","aliases":["A Juggler's Tale"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1256670","aliases":["Library Of Ruina"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1260320","aliases":["猛兽派对","Party Animals"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1260520","aliases":["Patrick's Parabox"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1267910","aliases":["Melvor Idle 梅尔沃放置","Melvor Idle"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1269300","aliases":["时空错乱之旅","This Means Warp"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1269950","aliases":["Buddy Simulator 1984"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1272320","aliases":["要战便战","Diplomacy is Not an Option"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1273400","aliases":["建筑模拟器","Construction Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1281800","aliases":["Samsara Room"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1281930","aliases":["tModLoader"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1282150","aliases":["海绵宝宝：The Cosmic Shake","SpongeBob SquarePants: The Cosmic Shake"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1282410","aliases":["Hard West 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1288310","aliases":["烟火","Firework"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1289310","aliases":["Helltaker"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1291010","aliases":["小兵大战 - Warpips","Warpips"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1291340","aliases":["城镇叠叠乐","Townscaper"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1292940","aliases":["Cube Escape Collection"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1293830","aliases":["极限竞速：地平线 4"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1295660","aliases":["席德·梅尔的文明VII","Sid Meier's Civilization VII"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1307580","aliases":["TOEM"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1313140","aliases":["咩咩启示录"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1316230","aliases":["Force of Nature 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1318690","aliases":["异形工厂 (Shapez)","shapez"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1321440","aliases":["Cassette Beasts 磁带妖怪","Cassette Beasts"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1325860","aliases":["VTube Studio"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1326470","aliases":["Sons Of The Forest"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1328840","aliases":["Lost in Play"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1332010","aliases":["Stray"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1333910","aliases":["Sizeable"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1335790","aliases":["Operation Tango"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1336490","aliases":["风暴之城 Against the Storm","Against the Storm"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1337010","aliases":["Alba: A Wildlife Adventure"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1338580","aliases":["像素哥3","McPixel 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1345860","aliases":["狗钩","Grapple Dog"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1351080","aliases":["Pharaoh: A New Era"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1356810","aliases":["帝王牌局：古国纷争","Hexarchy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1363080","aliases":["庄园领主 Manor Lords","Manor Lords"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1366540","aliases":["戴森球计划","Dyson Sphere Program"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1367550","aliases":["Kingdom Rush Vengeance"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1367590","aliases":["受折磨的灵魂","Tormented Souls"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1369320","aliases":["Virtual Cottage"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1373960","aliases":["印蒂卡","INDIKA"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1377360","aliases":["Vampires' Melody"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1388870","aliases":["Arcade Paradise"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1392960","aliases":["牧场物语 橄榄镇与希望的大地","STORY OF SEASONS: Pioneers of Olive Town"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1404850","aliases":["幸运房东","Luck be a Landlord"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1416920","aliases":["中国式网游","Chinese Online Game"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1416960","aliases":["Everafter Falls"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1426210","aliases":["双人成行","It Takes Two"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1432050","aliases":["小人物拯救世界 Nobody Saves the World","Nobody Saves the World"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1432100","aliases":["书行者","The Bookwalker"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1432860","aliases":["Sun Haven"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1432910","aliases":["宇宙汉堡王 Godlike Burger","Godlike Burger"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1433340","aliases":["Happy's Humble Burger Farm"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1433860","aliases":["The Amazing American Circus"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1434540","aliases":["星咏之诗","Zoeti"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1435790","aliases":["密室逃脱模拟器","Escape Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1436700","aliases":["Trine 5: A Clockwork Conspiracy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1444480","aliases":["Turing Complete"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1447430","aliases":["小黑盒加速器"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1448030","aliases":["Press Any Button"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1449690","aliases":["The Walking Dead: The Telltale Definitive Series"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1451940","aliases":["主播女孩重度依赖","NEEDY STREAMER OVERLOAD"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1454400","aliases":["Cookie Clicker"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1462040","aliases":["FINAL FANTASY VII REMAKE INTERGRADE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1466640","aliases":["九十六号公路","Road 96"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1467920","aliases":["巴别号漫游指南","A Guidebook Of Babel"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1468810","aliases":["鬼谷八荒","鬼谷八荒 Tale of Immortal"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1473350","aliases":["糯米团子历代记","(the) Gnorp Apologue"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1483870","aliases":["Draw & Guess - 你画我猜"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1491670","aliases":["Venba"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1493640","aliases":["驱灵者：新伊甸的幽灵","Banishers: Ghosts of New Eden"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1496590","aliases":["奇娅 Tchia","Tchia"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1497440","aliases":["COCOON"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1501610","aliases":["Nova Lands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1509510","aliases":["部落幸存者","Settlement Survival"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1509960","aliases":["PICO PARK"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1515210","aliases":["The Past Within"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1516240","aliases":["Mitoza"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1521070","aliases":["The Pegasus Expedition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1535560","aliases":["Farmer Against Potatoes Idle"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1545560","aliases":["影子诡局：被诅咒的海盗 Shadow Gambit: The Cursed Crew","Shadow Gambit: The Cursed Crew"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1547890","aliases":["Let's Build a Zoo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1551360","aliases":["极限竞速：地平线 5","Forza Horizon 5"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1562430","aliases":["《渔帆暗涌》","DREDGE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1562700","aliases":["闪避刺客","SANABI"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1567440","aliases":["内饭盒 - inbento","inbento"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1568400","aliases":["Sheepy: A Short Adventure"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1568590","aliases":["Goose Goose Duck"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1569580","aliases":["蓝途王子","Blue Prince"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1570070","aliases":["Beholder 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1574580","aliases":["Strange Horticulture"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1574820","aliases":["Until Then"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1577120","aliases":["采石场惊魂","The Quarry"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1578650","aliases":["深空梦里人","Citizen Sleeper"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1579380","aliases":["Shadow Tactics: 爱子的选择 Aiko's Choice","Shadow Tactics: Blades of the Shogun - Aiko's Choice"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1581770","aliases":["SpellForce: Conquest of Eo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1582650","aliases":["Caravan SandWitch","Caravan Sandwitch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1584090","aliases":["东方夜雀食堂 - Touhou Mystia's Izakaya","Touhou Mystia's Izakaya"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1586800","aliases":["Lil Gator Game"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1590760","aliases":["合金弹头：战略版","Metal Slug Tactics"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1598200","aliases":["王权：三国"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1599330","aliases":["荒原疗者 (Wildmender)","Wildmender"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1601570","aliases":["多重人生","The Alters"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1608230","aliases":["Planet of Lana"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1617400","aliases":["大巴扎 The Bazaar","The Bazaar"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1621690","aliases":["护核纪元","Core Keeper"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1623730","aliases":["Palworld / 幻兽帕鲁","Palworld"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1625080","aliases":["做个好梦"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1627570","aliases":["勇敢小骑士","The Plucky Squire"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1627840","aliases":["Universe For Sale"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1628130","aliases":["Who Pressed Mute on Uncle Marcus?"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1629520","aliases":["A Little to the Left"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1634150","aliases":["倾听画语：最美好的景色","Behind the Frame: The Finest Scenery"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1637320","aliases":["Dome Keeper 穹顶守护者","Dome Keeper"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1644940","aliases":["Loddlenaut"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1649080","aliases":["双点校园","Two Point Campus"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1651560","aliases":["寓言之地 (Fabledom)","Fabledom"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1652250","aliases":["传说与战术自走棋","Tales And Tactics"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1656780","aliases":["英雄黄昏"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1658150","aliases":["月光石岛","Moonstone Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1661630","aliases":["因果动物园","KarmaZoo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1665190","aliases":["Monster Prom 3: Monster Roadtrip"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1667400","aliases":["Cute Cats"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1669980","aliases":["火山的女儿","Volcano Princess"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1671210","aliases":["DELTARUNE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1691190","aliases":["Rogue Waters"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1721470","aliases":["Poppy Playtime"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1723260","aliases":["真探"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1735700","aliases":["动物迷城","Back to the Dawn"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1746030","aliases":["山河旅探 - Murders on the Yangtze River","Murders on the Yangtze River"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1755830","aliases":["Astrea: Six-Sided Oracles"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1768280","aliases":["法老王：青铜帝国 Ozymandias","Ozymandias"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1771300","aliases":["天国：拯救2","Kingdom Come: Deliverance II"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1786790","aliases":["魔法少女天穹法妮雅","Magical Girl Celesphonia"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1814710","aliases":["Cute Dogs"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1815570","aliases":["王牌与冒险","Aces and Adventures"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1817230","aliases":["Hi-Fi RUSH"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1829910","aliases":["Cute Cats 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1839880","aliases":["King Of The Castle"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1847240","aliases":["游戏开发物语 (Game Dev Story)","Game Dev Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1868140","aliases":["潜水员戴夫 DAVE THE DIVER","DAVE THE DIVER"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1868180","aliases":["世界树的迷宫 HD REMASTER","Etrian Odyssey HD"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1876890","aliases":["逸剑风云决","Wandering Sword"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1885110","aliases":["Cryptmaster"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1898290","aliases":["LEGO® Bricktales"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1903340","aliases":["光与影：33号远征队","Clair Obscur: Expedition 33"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1905180","aliases":["OBS Studio"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1915380","aliases":["花园生涯：模拟佛系生活","Garden Life: A Cozy Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1916310","aliases":["残存记录","Remnant Records"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1927720","aliases":["Monument Valley"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1927740","aliases":["Monument Valley 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1931730","aliases":["索利斯堡","Fort Solis"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1931770","aliases":["巴别塔圣歌","Chants of Sennaar"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1932570","aliases":["Jaded"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1937500","aliases":["学园构想家","Let's School"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1937780","aliases":["Total War: PHARAOH"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1943950","aliases":["Escape the Backrooms"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1944430","aliases":["Amnesia: The Bunker"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1948280","aliases":["Stacklands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1951230","aliases":["负鼠闹翻天","Pizza Possum"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1967430","aliases":["Ghost Trick: Phantom Detective"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1970460","aliases":["Garden Galaxy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1971650","aliases":["歧路旅人 II","OCTOPATH TRAVELER II"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1977170","aliases":["退潮","Jusant"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1982340","aliases":["白之旅","Blanc"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1988080","aliases":["Cute Cats 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:1989070","aliases":["奇星协力 (Synergy)","Synergy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2001120","aliases":["双影奇境","Split Fiction"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2005160","aliases":["纳赫鲁博王国地下城大师","Naheulbeuk's Dungeon Master"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2012840","aliases":["Portal with RTX"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2019810","aliases":["Boxes"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2020710","aliases":["海港物语 Havendock","Havendock"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2060130","aliases":["重返猴岛","Return to Monkey Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2060160","aliases":["编程农场","The Farmer Was Replaced"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:206440","aliases":["To the Moon《去月球》","To the Moon"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:207080","aliases":["Indie Game: The Movie"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2072170","aliases":["闪耀滑雪场物语 (Shiny Ski Resort)","Shiny Ski Resort"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2074800","aliases":["大富翁11","Richman 11"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2078350","aliases":["布鲁伊：电子游戏","Bluey: The Videogame"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2078450","aliases":["战锤40K：极速狂飙","Warhammer 40,000: Speed Freeks"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2084000","aliases":["将军 对决","Shogun Showdown"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2089450","aliases":["温泉物语2 (Hot Springs Story 2)","Hot Springs Story 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2089600","aliases":["不/存在的你，和我"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2093920","aliases":["灾变前夜"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2097570","aliases":["星之侵略者","StarVaders"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2101290","aliases":["电影工坊物语 (Silver Screen Story)","Silver Screen Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2103130","aliases":["中国式相亲","Matchmaking Inc."],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:210970","aliases":["The Witness"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2113850","aliases":["Spirit City: Lofi Sessions"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:211820","aliases":["Starbound"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2119650","aliases":["便利店开业日记 (Convenience Stories)","Convenience Stories"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2119660","aliases":["游乐园梦物语 (Dream Park Story)","Dream Park Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2129530","aliases":["生灵重塑","REANIMAL"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2134770","aliases":["SteamWorld Build"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:213670","aliases":["South Park™: The Stick of Truth™"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2149010","aliases":["小小梦魔 强化版"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2167960","aliases":["买个可乐饼吧！ - Buy a Croquette!"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2169200","aliases":["冬日狂想曲"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2179850","aliases":["Cobalt Core"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2185060","aliases":["双点博物馆","Two Point Museum"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2187220","aliases":["逆转裁判456 王泥喜精选集","Apollo Justice: Ace Attorney Trilogy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2194530","aliases":["犹格索托斯的庭院","Yog-Sothoth's Yard"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:219740","aliases":["饥荒","Don't Starve"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2198150","aliases":["Tiny Glade"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:219990","aliases":["Grim Dawn"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:22000","aliases":["World of Goo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:220200","aliases":["Kerbal Space Program"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2220360","aliases":["Paper Lily - Chapter 1"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2224640","aliases":["Artisan TD"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2230280","aliases":["方寸文明","Tiny Civilization"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:223750","aliases":["DCS World Steam Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2238040","aliases":["瞎闹猎车手","Tiny Terry's Turbo Trip"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2239150","aliases":["Thronefall"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:224760","aliases":["FEZ"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:225080","aliases":["Brothers - A Tale of Two Sons"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2272400","aliases":["站点连连 Station to Station","Station to Station"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:227300","aliases":["Euro Truck Simulator 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2276930","aliases":["Chillquarium"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2285550","aliases":["多洛可小镇","Doloc Town"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2290180","aliases":["极限国度","Riders Republic"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2291850","aliases":["Underground Blossom"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2302540","aliases":["花火与幽灵少女 - Hanabi and Ghost girl"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:230290","aliases":["Universe Sandbox"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2303350","aliases":["小小贴纸铺","Sticky Business"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2305840","aliases":["猫咪斗恶龙3 Cat Quest III","Cat Quest III"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:231430","aliases":["Company of Heroes 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2325290","aliases":["Sky 光·遇","Sky: Children of the Light"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:233450","aliases":["Prison Architect"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2379780","aliases":["Balatro"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:238320","aliases":["Outlast"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:238460","aliases":["BattleBlock Theater","BattleBlock Theater®"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:239030","aliases":["Papers, Please"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2393160","aliases":["钓鱼哥的奇妙冒险","Nice Day for Fishing"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2399910","aliases":["白夜博物馆"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2400770","aliases":["地下城资本家 (Dungeon Tycoon)","Dungeon Tycoon"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2401970","aliases":["逆转检察官1&2 御剑精选集","Ace Attorney Investigations Collection"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:240720","aliases":["Getting Over It with Bennett Foddy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2410490","aliases":["城堡惊魂"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2413840","aliases":["Cute Capybaras"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2421410","aliases":["全网公敌2 新世界","Cyber Manhunt 2: New World - The Hacking Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:242760","aliases":["The Forest"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2427700","aliases":["背包乱斗：福西法的宝藏 Backpack Battles","Backpack Battles"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:242820","aliases":["140"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2429860","aliases":["妹相随～黑白世界的缤纷冒险～","Living With Sister: Monochrome Fantasy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2431880","aliases":["大海贼探险物语DX (High Sea Saga DX)","High Sea Saga DX"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2437690","aliases":["探险顽皮动物园 (Zoo Park Story)","Zoo Park Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:244160","aliases":["Homeworld Remastered Collection"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:244210","aliases":["神力科莎 Assetto Corsa","Assetto Corsa"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2442460","aliases":["深空梦里人2：逐星之旅","Citizen Sleeper 2: Starward Vector"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2453360","aliases":["鸡械绿洲","Cluckmech Oasis"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:246420","aliases":["Kingdom Rush"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:246620","aliases":["Plague Inc: Evolved"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:247080","aliases":["Crypt of the NecroDancer"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2473980","aliases":["Draw"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2483190","aliases":["极限竞速：地平线 6","Forza Horizon 6"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2489330","aliases":["鼠宝小镇 Whiskerwood","Whiskerwood"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2495980","aliases":["箭箭剑"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2501600","aliases":["骰子浪游者","DICEOMANCER"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:251570","aliases":["7 Days to Die"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2521630","aliases":["小小城建 Mini Settlers","Mini Settlers"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:252410","aliases":["SteamWorld Dig"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2525310","aliases":["方块公国 (Drop Duchy)","Drop Duchy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2527500","aliases":["米塔 MiSide","MiSide"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2532050","aliases":["Vampires' Melody 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2533960","aliases":["SUMMERHOUSE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2539350","aliases":["文字规则怪谈"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2543180","aliases":["泡姆泡姆","POPUCOM"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:255520","aliases":["Viscera Cleanup Detail: Shadow Warrior"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:255710","aliases":["Cities: Skylines"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2567870","aliases":["Chained Together"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:257510","aliases":["塔罗斯的法则","The Talos Principle"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2579840","aliases":["Chill Drive"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2592160","aliases":["Dispatch 超英派遣中心","Dispatch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2593370","aliases":["饿殍：明末千里行","The Hungry Lamb: Traveling in the Late Ming Dynasty"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:259810","aliases":["送小羊回家","Home Sheep Home: Farmageddon Party Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2600140","aliases":["Please, Touch The Artwork 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:260230","aliases":["Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre","Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2610090","aliases":["A Park Full of Cats"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2612680","aliases":["奇愈地下城"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2617700","aliases":["造作海岛","Tinkerlands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:262060","aliases":["Darkest Dungeon®"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2631960","aliases":["14种扫雷变体2","14 Minesweeper Variants 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:264710","aliases":["Subnautica - 深海迷航","Subnautica"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2656540","aliases":["东方：平野孤鸿","Ballads of Hongye: REBORN"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:265930","aliases":["Goat Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2661300","aliases":["禁闭求生2 Grounded 2","Grounded 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2666510","aliases":["Rusty's Retirement"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:268500","aliases":["XCOM 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:268910","aliases":["Cuphead"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2694490","aliases":["Path of Exile 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2696320","aliases":["哲学梗模拟器","Thought Experiment Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2705820","aliases":["再见的备份"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:270880","aliases":["American Truck Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2735620","aliases":["BoardLand"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2747770","aliases":["Wednesdays"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2753900","aliases":["王之凝视 (The King is Watching)","The King is Watching"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:275850","aliases":["No Man's Sky 无人深空","No Man's Sky"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2758540","aliases":["我的小鲨鱼"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2770160","aliases":["麦克斯韦解谜妖","Maxwell's puzzling demon"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2784470","aliases":["九王 9 Kings","9 Kings"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2795000","aliases":["The WereCleaner"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2796010","aliases":["小动物餐吧","Party Club"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2796340","aliases":["幻象游园剧"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2797340","aliases":["猫神牧场","Cat God Ranch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:281610","aliases":["Homeworld: Deserts of Kharak"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2816950","aliases":["妖之乡","Yaoling: Mythical Journey"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:281990","aliases":["Stellaris"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:282070","aliases":["This War of Mine"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:282140","aliases":["SOMA"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2825530","aliases":["旁观者：列车长 Beholder: Conductor","Beholder: Conductor"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2826180","aliases":["Chill Pulse 心流小筑","ChillPulse"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:282800","aliases":["100% Orange Juice"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2834600","aliases":["我的小小人生","My Little Life"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2835570","aliases":["恶魔轮盘","Buckshot Roulette"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2848420","aliases":["我的魅魔库库拉"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2849080","aliases":["王国保卫战 5：联盟","Kingdom Rush 5: Alliance TD"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:286160","aliases":["Tabletop Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2868840","aliases":["Slay the Spire 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2878420","aliases":["菜市场模拟器","Old Market Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:288160","aliases":["The Room"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2881650","aliases":["前方高能","Content Warning"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:289070","aliases":["Sid Meier's Civilization VI"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:289130","aliases":["无尽帝国","ENDLESS Legend™"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2917350","aliases":["拉杆英雄","Spin Hero"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2918500","aliases":["舒舒服服小岛时光","Cozy Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:292030","aliases":["巫师3：狂猎","The Witcher 3: Wild Hunt"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2923300","aliases":["Banana"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2934180","aliases":["哆啦A梦的铜锣烧店物语 (Doraemon Dorayaki Shop Story)","Doraemon Dorayaki Shop Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:294100","aliases":["边缘世界 RimWorld","RimWorld"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2943180","aliases":["Virtual Cottage 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:2951630","aliases":["全面战争：法老 王朝版","Total War: PHARAOH DYNASTIES"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:298630","aliases":["The Escapists"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3028310","aliases":["Nordhold"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3035500","aliases":["架空地图模拟器","Fantasy Map Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3036080","aliases":["沙威玛传奇 - Shawarma Legend","Shawarma Legend"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:304430","aliases":["INSIDE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:304930","aliases":["Unturned"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3051380","aliases":["洛菲水族馆 · Lofi Aquarium","Lofi aquarium"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:305620","aliases":["The Long Dark"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3068300","aliases":["Katawa Shoujo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3084280","aliases":["三相奇谈","Threefold Recital"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3097560","aliases":["Liar's Bar"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3100110","aliases":["学生时代：序章"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3101980","aliases":["Travellin Cats in Paris"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3115220","aliases":["自在城镇","Town To City"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3117820","aliases":["苏丹的游戏","Sultan's Game"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:312530","aliases":["Duck Game"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3132930","aliases":["纪念碑谷 3","Monument Valley 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:313340","aliases":["Mountain"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3164330","aliases":["无限暖暖"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3167550","aliases":["动物栏：桌面牧场","Tiny Pasture"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3183350","aliases":["幻想鱼箱","Fantasy Aquarium"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:319630","aliases":["Life is Strange™","Life is Strange - Episode 1"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:319910","aliases":["Trine 3: The Artifacts of Power"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3209750","aliases":["巴别塔：垂直国度","STARIO: Haven Tower"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:322170","aliases":["Geometry Dash"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:322330","aliases":["饥荒联机版","Don't Starve Together"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:322450","aliases":["FRAMED Collection"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:323190","aliases":["冰汽时代","Frostpunk"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:323850","aliases":["Move or Die"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:324140","aliases":["Kalimba"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3241660","aliases":["R.E.P.O."],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3255860","aliases":["海默2000","Hymer 2000"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3261010","aliases":["中华一商：传承","East Trade Tycoon: Inheritance"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3269960","aliases":["鼓手余命十日谭"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3299080","aliases":["Overlooting - 掠夺传奇"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:331870","aliases":["AER Memories of Old"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3330","aliases":["Zuma Deluxe"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3350200","aliases":["情感反诈模拟器"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3390","aliases":["Feeding Frenzy 2: Shipwreck Showdown Deluxe"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3400000","aliases":["Cubic Odyssey"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:34030","aliases":["Total War: NAPOLEON - Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3404470","aliases":["线条小狗：动物温泉","Maltese's Fluffy Onsen"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3405480","aliases":["Milky Way Idle - 银河奶牛放置"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3406910","aliases":["命运游戏3：王者棋局","Game Of Fate 3：Clash Of Crowns"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3416070","aliases":["青蛙的空之绿洲","Ropuka's Idle Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:341800","aliases":["Keep Talking and Nobody Explodes"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3419430","aliases":["Bongo Cat"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:34270","aliases":["SEGA Mega Drive & Genesis Classics"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3447040","aliases":["空之轨迹 the 1st"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:346010","aliases":["围攻","Besiege"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:346110","aliases":["ARK: Survival Evolved"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3472550","aliases":["The Mr. Rabbit Magic Show"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3478050","aliases":["女王的游戏：盛世天下 媚娘篇","Road to Empress I"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3483740","aliases":["Cast n Chill"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:351920","aliases":["疯狂机器3 - Crazy Machines 3","Crazy Machines 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3521320","aliases":["魔法书自走棋：契约","Magicbook AutoBattler: Contract"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3527290","aliases":["PEAK"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3528450","aliases":["纸房子","Sweet Home"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:353540","aliases":["Stephen's Sausage Roll"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3545990","aliases":["美女，请别影响我成仙"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3548580","aliases":["放松时光：与你共享Lo-Fi故事","Chill with You Lo-Fi Story"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:35700","aliases":["Trine"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:35720","aliases":["Trine 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:358130","aliases":["奇妙探险队 Curious Expedition","Curious Expedition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3590","aliases":["Plants vs. Zombies: Game of the Year","Plants vs. Zombies GOTY Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:359840","aliases":["Shift Happens"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:361280","aliases":["Turmoil"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:362680","aliases":["Fran Bow"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3629780","aliases":["神经鹅","Tingus Goose"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:365450","aliases":["Hacknet"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:365670","aliases":["Blender"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:367450","aliases":["Poly Bridge"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:367670","aliases":["Controller Companion"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:368230","aliases":["Kingdom: Classic"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3687810","aliases":["时光超市"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:369990","aliases":["Gremlins, Inc."],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:374040","aliases":["Portal Knights"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:374320","aliases":["DARK SOULS™ III"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:379430","aliases":["Kingdom Come: Deliverance"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:383270","aliases":["Hue"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:383870","aliases":["Firewatch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:384190","aliases":["ABZÛ","ABZU"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3861280","aliases":["挂机手游模拟器"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3862670","aliases":["龟龟潜海记 Shelldiver","Shelldiver"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3865150","aliases":["小小的身影，重叠的内心"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:387290","aliases":["Ori and the Blind Forest: Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:387990","aliases":["Scrap Mechanic"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3883420","aliases":["四十四次日落"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:391540","aliases":["Undertale"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:391720","aliases":["Layers of Fear (2016)"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:391730","aliases":["崩溃大陆","Crashlands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:3949040","aliases":["我们到了吗?","RV There Yet?"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:395170","aliases":["DISTRAINT: Deluxe Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:395570","aliases":["We Are The Dwarves"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:400","aliases":["Portal"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:4000","aliases":["Garry's Mod"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:400040","aliases":["ShareX"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:404200","aliases":["Wartile","WARTILE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:404790","aliases":["Godot Engine"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:405640","aliases":["Pony Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:40700","aliases":["机械迷城 (Machinarium)","Machinarium"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:40800","aliases":["Super Meat Boy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:408410","aliases":["X-Morph: Defense"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:412220","aliases":["DDNet"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:412830","aliases":["STEINS;GATE"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:413150","aliases":["Stardew Valley"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:413410","aliases":["Danganronpa: Trigger Happy Havoc"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:413420","aliases":["Danganronpa 2: Goodbye Despair"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:414340","aliases":["Hellblade: Senua's Sacrifice"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:418240","aliases":["Shadow Tactics: Blades of the Shogun"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:420530","aliases":["OneShot"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:420850","aliases":["夏末盛开的花","Cosmic Leap"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:421040","aliases":["Plantera"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:424840","aliases":["Little Nightmares"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:431960","aliases":["Wallpaper Engine: 壁纸引擎","Wallpaper Engine"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:433340","aliases":["Slime Rancher"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:435120","aliases":["Rusty Lake Hotel"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:437630","aliases":["State of Mind"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:441870","aliases":["OutDrive"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:442070","aliases":["Drawful 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:444770","aliases":["Mimpi Dreams"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:446800","aliases":["Transport Fever"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:448510","aliases":["Overcooked"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:457140","aliases":["缺氧","Oxygen Not Included"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:458710","aliases":["Kingdom Rush Frontiers","Kingdom Rush Frontiers - Tower Defense"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:461950","aliases":["Beat Cop"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:466560","aliases":["Northgard: Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:468920","aliases":["终极钓鱼模拟器","Ultimate Fishing Simulator®"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:475550","aliases":["Beholder"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:477160","aliases":["人类一败涂地 / Human Fall Flat","Human Fall Flat"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:48000","aliases":["LIMBO"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:489520","aliases":["随从大师","Minion Masters"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:489830","aliases":["The Elder Scrolls V: Skyrim Special Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:493340","aliases":["过山车之星","Planet Coaster"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:493540","aliases":["Figment"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:495420","aliases":["State of Decay 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:496300","aliases":["Kingdom: New Lands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:497700","aliases":["安全第一","Safety First!"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:501300","aliases":["What Remains of Edith Finch"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:503560","aliases":["911 Operator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:504230","aliases":["Celeste"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:508440","aliases":["Totally Accurate Battle Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:518790","aliases":["《猎人：荒野的召唤》","theHunter: Call of the Wild™"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:524220","aliases":["NieR:Automata™"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:526870","aliases":["幸福工厂","Satisfactory"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:527230","aliases":["为了吾王 / For The King","For The King"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:532110","aliases":["Rusty Lake: Roots"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:540610","aliases":["Delicious! Pretty Girls Mahjong Solitaire"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:540840","aliases":["Lara Croft GO"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:541570","aliases":["Sally Face - Episode One"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:550320","aliases":["art of rally"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:557600","aliases":["Gorogoa"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:557630","aliases":["Hello Charlotte: Childhood's End","Hello Charlotte EP2: Requiem Aeternam Deo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:558990","aliases":["Opus Magnum"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:568220","aliases":["Lobotomy Corporation","Lobotomy Corporation | Monster Management Simulation"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:571310","aliases":["SteamWorld Dig 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:574310","aliases":["The Mooseman"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:588430","aliases":["Fallout Shelter"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:590380","aliases":["Into the Breach"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:594330","aliases":["Visage"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:597180","aliases":["旧世界 Old World","Old World"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:599390","aliases":["Battle for Wesnoth"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:600090","aliases":["The Coma: Recut"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:601840","aliases":["欺诈之地","Griftlands"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:602320","aliases":["Train Valley 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:606150","aliases":["Moonlighter"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:609320","aliases":["FAR: Lone Sails"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:6100","aliases":["Eets"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:610370","aliases":["Desperados III"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:613100","aliases":["房产达人","House Flipper"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:613900","aliases":["Museum of Other Realities"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:616560","aliases":["Ultimate Epic Battle Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:620","aliases":["Portal 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:621000","aliases":["异常 | Exception"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:621830","aliases":["WRC 7"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:627690","aliases":["Idle Champions of the Forgotten Realms"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:629520","aliases":["Soundpad"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:632470","aliases":["Disco Elysium"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:635320","aliases":["六月衷曲","Last Day of June"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:638230","aliases":["Journey"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:645630","aliases":["Car Mechanic Simulator 2018"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:646570","aliases":["Slay the Spire"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:646910","aliases":["The Crew 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:648800","aliases":["Raft"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:653530","aliases":["Return of the Obra Dinn"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:658850","aliases":["Do Not Feed the Monkeys"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:668630","aliases":["Tricolour Lovestory"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:669330","aliases":["钢铁指挥官","Mechabellum"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:683320","aliases":["GRIS"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:684410","aliases":["桥梁工程师传送门","Bridge Constructor Portal"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:688420","aliases":["绝境北地","Bad North: Jotunn Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:690640","aliases":["Trine 4: The Nightmare Prince"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:690790","aliases":["DiRT Rally 2.0"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:698780","aliases":["Doki Doki Literature Club","Doki Doki Literature Club!"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:701160","aliases":["王国：两位君主","Kingdom Two Crowns"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:702670","aliases":["Donut County"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:703080","aliases":["动物园之星","Planet Zoo"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:704850","aliases":["Thief Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:714010","aliases":["Aimlabs"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:714120","aliases":["Little Misfortune"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:718670","aliases":["《密教模拟器 (Cultist Simulator)》","Cultist Simulator"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:728880","aliases":["Overcooked! 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:733070","aliases":["Sudoku Universe"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:736190","aliases":["中国式家长","Chinese Parents"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:736260","aliases":["Baba Is You"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:737800","aliases":["F1 2018"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:739630","aliases":["Phasmophobia 恐鬼症","Phasmophobia"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:740080","aliases":["Deadly Days"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:743390","aliases":["DISTRAINT 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:744190","aliases":["Rusty Lake Paradise"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:746710","aliases":["Cypher"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:753640","aliases":["Outer Wilds"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:753660","aliases":["AtmaSphere"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:757300","aliases":["墨池镇","Truberbrook"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:758190","aliases":["龙崖","Dragon Cliff 龙崖"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:758370","aliases":["Through the Ages"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:761620","aliases":["Beholder 2"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:774171","aliases":["Muse Dash"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:774181","aliases":["Rhythm Doctor 节奏医生","Rhythm Doctor"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:774361","aliases":["Blasphemous"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:779640","aliases":["妄想症 Deliver Me"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:785790","aliases":["WHAT THE GOLF?"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:787480","aliases":["Phoenix Wright: Ace Attorney Trilogy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:792300","aliases":["The Beast Inside"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:794540","aliases":["Neo Cab"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:797410","aliases":["Headsnatchers"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:801480","aliases":["Agent A - 伪装游戏","Agent A: A puzzle in disguise"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:813230","aliases":["ANIMAL WELL"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:816340","aliases":["Kingdom Rush Origins"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:824000","aliases":["哈克小镇","Hokko Life"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:828740","aliases":["迷雾侦探","Tales of the Neon Sea"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:828900","aliases":["田园记","The Stillness of the Wind"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:838350","aliases":["太吾绘卷：天幕心帷","The Scroll of Taiwu : Beyond The Dome"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:841190","aliases":["Honey, I Joined a Cult"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:844930","aliases":["Fox Hime Zero"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:845070","aliases":["The Awesome Adventures of Captain Spirit"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:850190","aliases":["山羊模拟器3","Goat Simulator 3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:855640","aliases":["My Brother Rabbit"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:858710","aliases":["重力回路","Gravity Circuit"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:860510","aliases":["小小梦魔2","Little Nightmares II"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:877280","aliases":["SAO Utils 2: Progressive"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:880940","aliases":["Pummel Party"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:881320","aliases":["The LEGO® Movie 2 - Videogame"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:892970","aliases":["Valheim: 英灵神殿","Valheim"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:893720","aliases":["One Hand Clapping"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:897450","aliases":["岛屿生存者","The Survivalists"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:909080","aliases":["Cube Escape: Paradox"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:914710","aliases":["Cat Quest II"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:916440","aliases":["纪元1800","Anno 1800"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:920490","aliases":["Driver Booster for Steam"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:932850","aliases":["Simmiland"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:933110","aliases":["Age of Empires III: Definitive Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:942970","aliases":["疑案追声","Unheard - Voices of Crime"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:945360","aliases":["Among Us"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:948900","aliases":["macdows 95"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:949230","aliases":["Cities: Skylines II 都市：天际线2","Cities: Skylines II"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:952040","aliases":["同步音律喵赛克","MUSYNX"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:95400","aliases":["ibb & obb"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:956030","aliases":["Creaks"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:957960","aliases":["Inkulinati 神笔谈兵","Inkulinati"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:960090","aliases":["Bloons TD 6"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:960170","aliases":["DJMAX RESPECT V"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:960910","aliases":["暴雨","Heavy Rain"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:960990","aliases":["超凡双生","Beyond: Two Souls"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:963000","aliases":["Frog Detective 1: The Haunted Island"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:965580","aliases":["Root"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:966330","aliases":["Flower"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:967050","aliases":["Pacify"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:969760","aliases":["Omno"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:969990","aliases":["SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:972660","aliases":["《Spiritfarer®》Farewell版","Spiritfarer®: Farewell Edition"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:976590","aliases":["巴士模拟器 21","Bus Simulator 21 Next Stop"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:977230","aliases":["火星电力行业豪华版","Mars Power Industries Deluxe"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:977950","aliases":["冰与火之舞 A Dance of Fire and Ice","A Dance of Fire and Ice"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:978460","aliases":["Emily is Away <3"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:986800","aliases":["AVICII Invector"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:990080","aliases":["霍格沃茨之遗","Hogwarts Legacy"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:990630","aliases":["The Last Campfire"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}
+{"game_id":"steam:993090","aliases":["Lossless Scaling"],"source":"classification_json_import","updated_at":"2026-06-26T01:11:30+08:00"}

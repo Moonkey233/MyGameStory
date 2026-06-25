@@ -62,6 +62,13 @@ python scripts/import_classification_text.py --input data\imports\ocr\ocr_text.t
 
 Use `--alias-map data\imports\ocr\alias_map.json` when Chinese OCR names need explicit appid mapping. The script writes safe matches to a classification preview and writes unresolved/conflicting records to review previews.
 
+For JSON sources that already contain category keys and explicit `steam:<appid>` mappings, use the JSON importer. It can parse concatenated top-level JSON objects and uses appid as the identity truth:
+
+```powershell
+python scripts/import_classification_json.py --input data\imports\ocr\classification_raw.json --timestamp 20260626T010000+0800 --fetch-appdetails
+python scripts/import_classification_json.py --timestamp 20260626T010000+0800 --apply-preview
+```
+
 ## Manual Classification
 
 Official classifications live in `data/manual/classifications.jsonl`. Before writing to that file, generate a preview:
