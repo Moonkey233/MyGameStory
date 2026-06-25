@@ -1,5 +1,7 @@
 # game-vault
 
+中文文档: [README.zh-CN.md](README.zh-CN.md)
+
 `game-vault` is a local Steam library data project. It keeps source data in simple, reviewable files and generates CSV views for Excel-style browsing and analysis. It does not use a SQL database.
 
 ## Data Model
@@ -49,6 +51,14 @@ python scripts/import_screenshot_ocr.py --image path\to\screenshot.png --timesta
 ```
 
 OCR is not a reliable source of truth. The script writes raw OCR metadata and suggestion previews. It does not overwrite official manual classifications.
+
+For plain OCR text that already contains collection headers such as `B.01-动作战斗`, generate a classification preview:
+
+```powershell
+python scripts/import_classification_text.py --input data\imports\ocr\ocr_text.txt --timestamp 20260625T220000+0800
+```
+
+Use `--alias-map data\imports\ocr\alias_map.json` when Chinese OCR names need explicit appid mapping. The script writes safe matches to a classification preview and writes unresolved/conflicting records to review previews.
 
 ## Manual Classification
 

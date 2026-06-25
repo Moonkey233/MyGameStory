@@ -12,6 +12,8 @@ data/imports/**
 !data/imports/**/.gitkeep
 data/manual/personal_reviews.jsonl
 data/manual/purchases.jsonl
+data/manual/*.preview.*.jsonl
+data/suggestions/*.preview.*.jsonl
 
 # Optional generated analysis outputs.
 data/derived/*.parquet
