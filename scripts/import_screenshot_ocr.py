@@ -149,7 +149,7 @@ def build_ocr_preview(root: Path, image_path: Path, timestamp: str, text_overrid
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Create OCR-based classification suggestion previews from one screenshot source.")
-    parser.add_argument("--root", default=None, help="Project root. Defaults to the game-vault directory.")
+    parser.add_argument("--root", default=None, help="Project root. Defaults to the MyGameStory repository root.")
     parser.add_argument("--image", required=True, help="Screenshot image path.")
     parser.add_argument("--timestamp", required=True, help="Timestamp used in output filenames.")
     parser.add_argument("--text-override", default=None, help="Optional UTF-8 text file to use instead of OCR, useful for testing/manual OCR.")
@@ -169,4 +169,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

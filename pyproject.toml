@@ -1,7 +1,7 @@
 [project]
-name = "game-vault"
+name = "MyGameStory"
 version = "0.1.0"
-description = "Local, auditable Steam game library data vault."
+description = "Local, auditable Steam game library data project."
 requires-python = ">=3.11"
 dependencies = []
 
@@ -13,4 +13,3 @@ analysis = ["pyarrow>=15.0", "pandas>=2.2"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["scripts"]
-

@@ -199,8 +199,8 @@ def validate(root: Path, strict_warnings: bool = False) -> tuple[list[str], list
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate game-vault source data.")
-    parser.add_argument("--root", default=None, help="Project root. Defaults to the game-vault directory.")
+    parser = argparse.ArgumentParser(description="Validate MyGameStory source data.")
+    parser.add_argument("--root", default=None, help="Project root. Defaults to the MyGameStory repository root.")
     parser.add_argument("--strict", action="store_true", help="Treat warnings as errors.")
     args = parser.parse_args()
 
@@ -221,4 +221,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

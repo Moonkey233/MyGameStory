@@ -1,8 +1,10 @@
-# game-vault
+# MyGameStory
 
 English documentation: [README.md](README.md)
 
-`game-vault` 是一个本地 Steam 游戏库数据项目。它用简单、可审计、可 git diff 的文件保存源数据，并自动生成适合 Excel 浏览和后续分析的 CSV 视图。不使用复杂 SQL 数据库。
+`MyGameStory` 是一个本地 Steam 游戏库数据项目。它用简单、可审计、可 git diff 的文件保存源数据，并自动生成适合 Excel 浏览和后续分析的 CSV 视图。不使用复杂 SQL 数据库。
+
+分类确认和后续导入格式见：[docs/classification_workflow.zh-CN.md](docs/classification_workflow.zh-CN.md)
 
 ## 数据模型
 

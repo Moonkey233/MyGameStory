@@ -8,7 +8,7 @@ from vaultlib import resolve_game, resolve_root, write_jsonl
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Resolve a Steam appid, game_id, or raw title to a game_id.")
-    parser.add_argument("--root", default=None, help="Project root. Defaults to the game-vault directory.")
+    parser.add_argument("--root", default=None, help="Project root. Defaults to the MyGameStory repository root.")
     parser.add_argument("--name", default=None, help="Raw game name to resolve.")
     parser.add_argument("--steam-appid", default=None, help="Steam appid to resolve.")
     parser.add_argument("--game-id", default=None, help="Known game_id to verify.")
@@ -32,4 +32,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -1,8 +1,10 @@
-# game-vault
+# MyGameStory
 
 中文文档: [README.zh-CN.md](README.zh-CN.md)
 
-`game-vault` is a local Steam library data project. It keeps source data in simple, reviewable files and generates CSV views for Excel-style browsing and analysis. It does not use a SQL database.
+`MyGameStory` is a local Steam library data project. It keeps source data in simple, reviewable files and generates CSV views for Excel-style browsing and analysis. It does not use a SQL database.
+
+Classification workflow: [docs/classification_workflow.zh-CN.md](docs/classification_workflow.zh-CN.md)
 
 ## Data Model
 

@@ -65,7 +65,7 @@ def fetch_owned_games(api_key: str, steam_id: str, timeout: int) -> dict[str, An
         "format": "json",
     }
     url = f"{STEAM_OWNED_ENDPOINT}?{urllib.parse.urlencode(params)}"
-    request = urllib.request.Request(url, headers={"User-Agent": "game-vault/0.1"})
+    request = urllib.request.Request(url, headers={"User-Agent": "MyGameStory/0.1"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         payload = response.read().decode(charset)

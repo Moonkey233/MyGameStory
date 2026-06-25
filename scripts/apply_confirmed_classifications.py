@@ -65,7 +65,7 @@ def apply_preview(root: Path, preview_path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Preview and apply manually confirmed classifications.")
-    parser.add_argument("--root", default=None, help="Project root. Defaults to the game-vault directory.")
+    parser.add_argument("--root", default=None, help="Project root. Defaults to the MyGameStory repository root.")
     parser.add_argument("--input", default=None, help="Confirmed classification JSONL input.")
     parser.add_argument("--timestamp", default=None, help="Timestamp used in preview filename.")
     parser.add_argument("--apply-preview", default=None, help="Apply a previously reviewed preview JSONL.")
@@ -86,4 +86,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

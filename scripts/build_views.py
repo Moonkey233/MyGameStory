@@ -228,8 +228,8 @@ def build_views(root: Path) -> dict[str, Path]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build generated CSV views from game-vault source data.")
-    parser.add_argument("--root", default=None, help="Project root. Defaults to the game-vault directory.")
+    parser = argparse.ArgumentParser(description="Build generated CSV views from MyGameStory source data.")
+    parser.add_argument("--root", default=None, help="Project root. Defaults to the MyGameStory repository root.")
     args = parser.parse_args()
 
     root = resolve_root(args.root)
