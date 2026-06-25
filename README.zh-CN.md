@@ -8,7 +8,7 @@ English documentation: [README.md](README.md)
 
 ## 数据模型
 
-- `data/manual/*.jsonl`：人工维护的源数据，包括游戏身份、分类、别名、个人评价和购买记录。
+- `data/manual/*.jsonl`：人工维护的源数据，包括游戏身份、分类、别名、已确认名称解析、个人评价和购买记录。
 - `data/imports/`：Steam API、截图、OCR、本地集合导出的原始导入文件。原始导入只追加保存，不覆盖。
 - `data/snapshots/*.jsonl`：从原始导入解析出的历史快照，例如库存、游玩时长、成就和安装状态。
 - `data/suggestions/*.jsonl`：机器、OCR、导入流程产生的待审核建议。

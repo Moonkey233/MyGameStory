@@ -8,7 +8,7 @@ Classification workflow: [docs/classification_workflow.zh-CN.md](docs/classifica
 
 ## Data Model
 
-- `data/manual/*.jsonl`: human-owned source data such as game identity, classifications, aliases, reviews, and purchases.
+- `data/manual/*.jsonl`: human-owned source data such as game identity, classifications, aliases, confirmed name resolutions, reviews, and purchases.
 - `data/imports/`: raw imports from Steam API, screenshots, OCR, and local collection exports. Raw imports are never overwritten.
 - `data/snapshots/*.jsonl`: parsed historical snapshots such as library ownership, playtime, achievements, and installed state.
 - `data/suggestions/*.jsonl`: machine/OCR/import suggestions that need manual review before becoming official classifications.

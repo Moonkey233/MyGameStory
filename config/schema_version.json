@@ -6,6 +6,7 @@
     "games": "data/manual/games.jsonl",
     "classifications": "data/manual/classifications.jsonl",
     "aliases": "data/manual/aliases.jsonl",
+    "name_resolution": "data/manual/name_resolution.jsonl",
     "personal_reviews": "data/manual/personal_reviews.jsonl",
     "purchases": "data/manual/purchases.jsonl",
     "steam_owned_snapshot": "data/snapshots/steam_owned_snapshot.jsonl",

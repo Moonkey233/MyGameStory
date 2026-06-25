@@ -88,6 +88,11 @@ Thunder Tier One
 }
 ```
 
+人工确认后会写入两个正式文件：
+
+- `data/manual/aliases.jsonl`：把 OCR 名称、中文名、英文名等作为 `game_id` 的别名。
+- `data/manual/name_resolution.jsonl`：记录 `raw_name -> game_id` 的人工确认解析结果，保留来源、置信度和解析时间，便于审计。
+
 ## 后续类别文本导入格式
 
 后续你给 B.03、B.04、A.07 等 OCR 结果时，推荐用纯文本，一个来源一轮，只放一种来源，不要把 Steam API、截图 OCR、人工修正混在同一轮。
