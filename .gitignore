@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+scripts/steam_api.local.json
+scripts/*.local.json
+
+# Local/private source material. Keep these on disk, do not publish them.
+data/imports/**
+!data/imports/**/
+!data/imports/**/.gitkeep
+data/manual/personal_reviews.jsonl
+data/manual/purchases.jsonl
+
+# Optional generated analysis outputs.
+data/derived/*.parquet
+data/derived/*.xlsx

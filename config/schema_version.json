@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-06-25T00:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "source_files": {
+    "games": "data/manual/games.jsonl",
+    "classifications": "data/manual/classifications.jsonl",
+    "aliases": "data/manual/aliases.jsonl",
+    "personal_reviews": "data/manual/personal_reviews.jsonl",
+    "purchases": "data/manual/purchases.jsonl",
+    "steam_owned_snapshot": "data/snapshots/steam_owned_snapshot.jsonl",
+    "library_snapshot": "data/snapshots/library_snapshot.jsonl",
+    "playtime_daily": "data/snapshots/playtime_daily.jsonl",
+    "achievements_snapshot": "data/snapshots/achievements_snapshot.jsonl",
+    "installed_snapshot": "data/snapshots/installed_snapshot.jsonl"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "namespaces": [
+    {
+      "key": "structure",
+      "description": "Gameplay structure tags such as colony_sim, roguelike, deckbuilder."
+    },
+    {
+      "key": "theme",
+      "description": "Theme tags such as sci_fi, fantasy, cyberpunk."
+    },
+    {
+      "key": "mood",
+      "description": "Personal mood tags such as cozy, intense, relaxing."
+    },
+    {
+      "key": "source",
+      "description": "Import or evidence source tags."
+    }
+  ],
+  "tags": []
+}
+

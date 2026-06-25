@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "primary_categories": [
+    {
+      "key": "action_combat",
+      "legacy_code": "B.01",
+      "display_name": "🗡️动作战斗",
+      "description": "近战、动作 roguelike、格斗、砍杀、动作冒险；如果核心是战斗手感而非射击，则放这里。"
+    },
+    {
+      "key": "shooter_competitive",
+      "legacy_code": "B.02",
+      "display_name": "🎯射击对抗",
+      "description": "FPS/TPS/俯视角枪械射击、PvP/PvE 射击、枪战合作、战术射击、刷宝射击。"
+    },
+    {
+      "key": "role_playing",
+      "legacy_code": "B.03",
+      "display_name": "🧙角色扮演",
+      "description": "RPG、ARPG、JRPG、CRPG、队伍成长、职业/装备/等级/剧情养成。"
+    },
+    {
+      "key": "strategy_tactics",
+      "legacy_code": "B.04",
+      "display_name": "♟️策略战术",
+      "description": "RTS、TBS、4X、战棋、塔防、战术潜行、战略模拟、自走棋以外的策略。"
+    },
+    {
+      "key": "simulation_management",
+      "legacy_code": "B.05",
+      "display_name": "🏪模拟经营",
+      "description": "经营模拟、职业模拟、店铺/设施经营、人生/恋爱/社交模拟、养成模拟、tycoon、开罗类、资源/日程/关系管理。"
+    },
+    {
+      "key": "construction_management",
+      "legacy_code": "B.06",
+      "display_name": "🏗️建造管理",
+      "description": "城市、基地、殖民地、物流、工厂、设施布局、交通网络、自动化建设。重点是“建设和系统规划”，不是店铺经营。"
+    },
+    {
+      "key": "survival_sandbox",
+      "legacy_code": "B.07",
+      "display_name": "🌲生存沙盒",
+      "description": "生存、采集、制作、基地、生存压力、开放世界沙盒。"
+    },
+    {
+      "key": "puzzle_deduction",
+      "legacy_code": "B.08",
+      "display_name": "🧩解谜推理",
+      "description": "逻辑谜题、物理谜题、密室逃脱、侦探推理、法庭推理、点击解谜、合作信息差解谜、轻量解谜平台。"
+    },
+    {
+      "key": "platformer",
+      "legacy_code": "B.09",
+      "display_name": "🏃平台跳跃",
+      "description": "2D/3D 平台跳跃、类银河恶魔城、以跳跃/移动/关卡操作为主的游戏。"
+    },
+    {
+      "key": "narrative_adventure",
+      "legacy_code": "B.10",
+      "display_name": "🎬叙事冒险",
+      "description": "剧情冒险、FMV 互动影像、步行模拟、叙事驱动冒险、选择驱动但非纯视觉小说。"
+    },
+    {
+      "key": "visual_novel",
+      "legacy_code": "B.11",
+      "display_name": "📖视觉小说",
+      "description": "视觉小说、galgame、ADV 阅读为主、长文本角色路线为主。"
+    },
+    {
+      "key": "card_board",
+      "legacy_code": "B.12",
+      "display_name": "🃏卡牌桌游",
+      "description": "卡牌、牌组构筑、桌游、棋盘、骰子、麻将、扑克、自走棋、board game adaptation。"
+    },
+    {
+      "key": "racing_sports",
+      "legacy_code": "B.13",
+      "display_name": "🏁竞速体育",
+      "description": "赛车、竞速、体育、钓鱼/狩猎等户外运动模拟、飞行/驾驶/载具运动模拟。"
+    },
+    {
+      "key": "rhythm_music",
+      "legacy_code": "B.14",
+      "display_name": "🥁音乐节奏",
+      "description": "音乐节奏、节奏动作、节奏驱动的关卡操作。"
+    },
+    {
+      "key": "casual_party",
+      "legacy_code": "B.15",
+      "display_name": "🎈休闲派对",
+      "description": "休闲小品、cozy、轻量探索、低压力体验、多人派对、朋友整活、桌面非生产力陪伴。"
+    },
+    {
+      "key": "tool_software",
+      "legacy_code": "B.16",
+      "display_name": "🛠️工具软件",
+      "description": "真正工具、启动器、壁纸、编辑器、OBS、Blender、Godot、mod loader、生产力/专注工具、教育/科学模拟器。"
+    },
+    {
+      "key": "idle_incremental",
+      "legacy_code": "B.17",
+      "display_name": "💤放置挂机",
+      "description": "idle、incremental、clicker、后台收益、放置成长、桌面宠物但有持续产出/升级循环。"
+    }
+  ],
+  "curation_states": [
+    {
+      "key": "active_play",
+      "legacy_code": "A.01",
+      "display_name": "🔥即刻开玩"
+    },
+    {
+      "key": "handpicked",
+      "legacy_code": "A.03",
+      "display_name": "💖心选佳作"
+    },
+    {
+      "key": "sampled_continue",
+      "legacy_code": "A.05",
+      "display_name": "👀浅尝可续"
+    },
+    {
+      "key": "card_stock",
+      "legacy_code": "A.06",
+      "display_name": "📦挂卡库存"
+    },
+    {
+      "key": "unstarted",
+      "legacy_code": "A.07",
+      "display_name": "🆕未启清单"
+    }
+  ],
+  "special_flags": [
+    {
+      "key": "multiplayer_candidate",
+      "legacy_code": "A.02",
+      "display_name": "🌐联机开黑"
+    },
+    {
+      "key": "completion_target",
+      "legacy_code": "A.04",
+      "display_name": "🏆白金成就"
+    }
+  ],
+  "automation_rules": {
+    "favorite_requires_curation_state": "handpicked",
+    "primary_category_cardinality": "at_most_one",
+    "curation_state_cardinality": "at_most_one",
+    "card_stock_primary_category": "warning_only_when_missing"
+  }
+}
+

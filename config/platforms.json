@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "platforms": [
+    {
+      "key": "steam",
+      "display_name": "Steam",
+      "game_id_prefix": "steam",
+      "id_field": "steam_appid",
+      "enabled": true
+    }
+  ]
+}
+
