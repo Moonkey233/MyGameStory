@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 from typing import Any
 
-from vaultlib import coerce_float, coerce_int, load_games, load_taxonomies, read_jsonl, resolve_root, title_display, write_csv
+from vaultlib import coerce_float, coerce_int, load_games, load_taxonomies, read_jsonl, resolve_root, taxonomy_display_order, title_display, write_csv
 
 
 GAMES_FLAT_FIELDS = [
@@ -188,7 +188,12 @@ def build_views(root: Path) -> dict[str, Path]:
         category = row.get("primary_category")
         if category:
             by_category.setdefault(str(category), []).append(row)
-    for category_key, rows in sorted(by_category.items()):
+    def category_sort_key(item: tuple[str, list[dict[str, Any]]]) -> tuple[int, str]:
+        category_key = item[0]
+        category = primary_categories.get(category_key, {})
+        return (taxonomy_display_order(category), category_key)
+
+    for category_key, rows in sorted(by_category.items(), key=category_sort_key):
         ratings = [coerce_float(row.get("rating_score")) for row in rows]
         ratings = [rating for rating in ratings if rating is not None]
         category_rows.append({

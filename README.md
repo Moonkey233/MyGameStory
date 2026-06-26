@@ -32,7 +32,7 @@ python scripts/update_steam_library.py
 
 It exports the current Steam owned-library data, generates import previews, prints newly detected games, prompts for each new game's B category, applies the previews after confirmation, rebuilds CSV views, and runs validation.
 
-At the category prompt, enter a number (`1`-`17`), a legacy code (`B.10`), or a stable slug such as `narrative_adventure`. Press Enter to leave that game as `pending` for later classification, enter `?` to show the category list again, or enter `q` to mark the remaining new games as pending.
+At the category prompt, enter a number (`1`-`17`), a legacy code (`B.04`), or a stable slug such as `narrative_adventure`. Press Enter to leave that game as `pending` for later classification, enter `?` to show the category list again, or enter `q` to mark the remaining new games as pending.
 
 Useful options:
 
@@ -109,12 +109,12 @@ For day-to-day category corrections, use the interactive editor:
 python scripts/edit_classification.py
 ```
 
-It can locate a game by appid, `steam:<appid>`, or title, or list games from a current category/status before selecting rows. New categories accept `1`-`17`, `B.10`, or a slug such as `narrative_adventure`; `clear` removes the B category and marks the record as pending.
+It can locate a game by appid, `steam:<appid>`, or title, or list games from a current category/status before selecting rows. New categories accept `1`-`17`, `B.04`, or a slug such as `narrative_adventure`; `clear` removes the B category and marks the record as pending.
 
 Examples:
 
 ```powershell
-python scripts/edit_classification.py --appid 1272840 --new-category B.10
+python scripts/edit_classification.py --appid 1272840 --new-category B.04
 python scripts/edit_classification.py --from-category action_combat
 python scripts/edit_classification.py --from-category pending --list-only
 ```

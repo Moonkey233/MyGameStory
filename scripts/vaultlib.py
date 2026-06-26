@@ -5,6 +5,7 @@ import difflib
 import json
 import re
 import unicodedata
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -28,6 +29,15 @@ BRACKET_REPLACEMENTS = str.maketrans({
     "《": "(",
     "》": ")",
 })
+
+
+@dataclass(frozen=True)
+class TaxonomyChoice:
+    index: int
+    key: str
+    legacy_code: str
+    display_name: str
+    display_order: int
 
 
 class JsonlError(ValueError):
@@ -107,23 +117,95 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, Any]]) -> 
             writer.writerow({key: row.get(key, "") for key in fieldnames})
 
 
+def taxonomy_display_order(item: dict[str, Any], fallback: int = 9999) -> int:
+    explicit = coerce_int(item.get("display_order"))
+    if explicit is not None:
+        return explicit
+    legacy_code = str(item.get("legacy_code") or "")
+    match = re.search(r"\.(\d+)$", legacy_code)
+    if match:
+        return int(match.group(1))
+    return fallback
+
+
+def sorted_taxonomy_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(
+        items,
+        key=lambda item: (
+            taxonomy_display_order(item),
+            str(item.get("legacy_code") or ""),
+            str(item.get("key") or ""),
+        ),
+    )
+
+
 def load_taxonomies(root: Path) -> dict[str, Any]:
     data = read_json(root / "config" / "taxonomies.json")
-    primary = {item["key"]: item for item in data.get("primary_categories", [])}
-    curation = {item["key"]: item for item in data.get("curation_states", [])}
-    flags = {item["key"]: item for item in data.get("special_flags", [])}
-    legacy_to_primary = {item["legacy_code"]: item for item in data.get("primary_categories", [])}
-    legacy_to_curation = {item["legacy_code"]: item for item in data.get("curation_states", [])}
-    legacy_to_flag = {item["legacy_code"]: item for item in data.get("special_flags", [])}
+    ordered_primary = sorted_taxonomy_items(data.get("primary_categories", []))
+    ordered_curation = sorted_taxonomy_items(data.get("curation_states", []))
+    ordered_flags = sorted_taxonomy_items(data.get("special_flags", []))
+    primary = {item["key"]: item for item in ordered_primary}
+    curation = {item["key"]: item for item in ordered_curation}
+    flags = {item["key"]: item for item in ordered_flags}
+    legacy_to_primary = {item["legacy_code"]: item for item in ordered_primary}
+    legacy_to_curation = {item["legacy_code"]: item for item in ordered_curation}
+    legacy_to_flag = {item["legacy_code"]: item for item in ordered_flags}
     return {
         "raw": data,
         "primary_categories": primary,
         "curation_states": curation,
         "special_flags": flags,
+        "ordered_primary_categories": ordered_primary,
+        "ordered_curation_states": ordered_curation,
+        "ordered_special_flags": ordered_flags,
         "legacy_to_primary": legacy_to_primary,
         "legacy_to_curation": legacy_to_curation,
         "legacy_to_flag": legacy_to_flag,
     }
+
+
+def load_primary_category_choices(root: Path) -> list[TaxonomyChoice]:
+    choices: list[TaxonomyChoice] = []
+    for index, item in enumerate(load_taxonomies(root)["ordered_primary_categories"], start=1):
+        choices.append(TaxonomyChoice(
+            index=index,
+            key=str(item["key"]),
+            legacy_code=str(item["legacy_code"]),
+            display_name=str(item["display_name"]),
+            display_order=taxonomy_display_order(item, fallback=index),
+        ))
+    return choices
+
+
+def taxonomy_choice_lookup(choices: list[TaxonomyChoice]) -> dict[str, TaxonomyChoice]:
+    lookup: dict[str, TaxonomyChoice] = {}
+    for choice in choices:
+        lookup[str(choice.index)] = choice
+        lookup[f"{choice.index:02d}"] = choice
+        lookup[str(choice.display_order)] = choice
+        lookup[f"{choice.display_order:02d}"] = choice
+        lookup[choice.key.casefold()] = choice
+        lookup[choice.legacy_code.casefold()] = choice
+        lookup[choice.legacy_code.replace(".", "").casefold()] = choice
+    return lookup
+
+
+def parse_taxonomy_choice(raw_value: str, choices: list[TaxonomyChoice], allow_blank: bool = True) -> TaxonomyChoice | None:
+    value = raw_value.strip()
+    if allow_blank and (not value or value.casefold() in {"s", "skip", "pending"}):
+        return None
+    lookup = taxonomy_choice_lookup(choices)
+    choice = lookup.get(value.casefold())
+    if choice is None:
+        raise ValueError(f"Unknown category input: {raw_value!r}")
+    return choice
+
+
+def format_taxonomy_choices(choices: list[TaxonomyChoice]) -> str:
+    return "\n".join(
+        f"  {choice.index:>2}. {choice.legacy_code:<4} {choice.key:<24} {choice.display_name}"
+        for choice in choices
+    )
 
 
 def is_valid_game_id(game_id: Any) -> bool:
@@ -352,4 +434,3 @@ def upsert_by_game_id(existing: list[dict[str, Any]], incoming: list[dict[str, A
         base.update(record)
         merged[game_id] = base
     return [merged[game_id] for game_id in order]
-

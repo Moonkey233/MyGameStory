@@ -23,7 +23,7 @@ class EditClassificationTests(unittest.TestCase):
     def test_parse_category_filter_accepts_category_and_special_filters(self) -> None:
         choices = load_category_choices(PROJECT_ROOT)
 
-        self.assertEqual(parse_category_filter("B.10", choices).category, "narrative_adventure")
+        self.assertEqual(parse_category_filter("B.04", choices).category, "narrative_adventure")
         self.assertEqual(parse_category_filter("pending", choices).kind, "status")
         self.assertEqual(parse_category_filter("unclassified", choices).kind, "unclassified")
         self.assertEqual(parse_category_filter("all", choices).kind, "all")
@@ -43,12 +43,12 @@ class EditClassificationTests(unittest.TestCase):
     def test_parse_new_category_can_clear_category(self) -> None:
         choices = load_category_choices(PROJECT_ROOT)
 
-        self.assertEqual(parse_new_category("B.10", choices).key, "narrative_adventure")
+        self.assertEqual(parse_new_category("B.04", choices).key, "narrative_adventure")
         self.assertIsNone(parse_new_category("clear", choices))
 
     def test_build_edit_records_preserves_manual_fields(self) -> None:
         choices = load_category_choices(PROJECT_ROOT)
-        choice = parse_new_category("B.10", choices)
+        choice = parse_new_category("B.04", choices)
         rows = [GameRow(1, "steam:1272840", 1272840, "Dordogne", "action_combat", "confirmed")]
 
         records = build_edit_records(PROJECT_ROOT, rows, choice, "testtimestamp")

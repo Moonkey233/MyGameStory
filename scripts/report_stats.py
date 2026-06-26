@@ -15,6 +15,7 @@ from vaultlib import (
     load_taxonomies,
     read_jsonl,
     resolve_root,
+    taxonomy_display_order,
     title_display,
     write_csv,
     write_json,
@@ -237,7 +238,13 @@ def _category_rows(rows: list[dict[str, Any]], taxonomies: dict[str, Any], recen
         by_category[row["primary_category"] or "unclassified"].append(row)
 
     output: list[dict[str, Any]] = []
-    for category_key, items in sorted(by_category.items(), key=lambda item: item[0]):
+    def category_sort_key(item: tuple[str, list[dict[str, Any]]]) -> tuple[int, str]:
+        category_key = item[0]
+        if category_key == "unclassified":
+            return (9999, category_key)
+        return (taxonomy_display_order(categories.get(category_key, {})), category_key)
+
+    for category_key, items in sorted(by_category.items(), key=category_sort_key):
         playtimes = [float(item["playtime_hours"]) for item in items]
         played = [item for item in items if float(item["playtime_hours"]) > 0]
         recent = [item for item in items if item["last_played_dt"] and item["last_played_dt"] >= recent_cutoff]

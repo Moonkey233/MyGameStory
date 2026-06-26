@@ -48,6 +48,53 @@ def _check_config(root: Path, errors: list[str]) -> None:
             errors.append(f"{rel_path}:{exc.lineno}: invalid JSON: {exc.msg}")
 
 
+def _check_taxonomy_group(group_name: str, items: Any, errors: list[str]) -> None:
+    if not isinstance(items, list):
+        errors.append(f"config/taxonomies.json: {group_name} must be a list")
+        return
+    seen_keys: dict[str, int] = {}
+    seen_codes: dict[str, int] = {}
+    seen_orders: dict[int, int] = {}
+    for index, item in enumerate(items, start=1):
+        if not isinstance(item, dict):
+            errors.append(f"config/taxonomies.json: {group_name}[{index}] must be an object")
+            continue
+        key = item.get("key")
+        legacy_code = item.get("legacy_code")
+        display_order = item.get("display_order")
+        if not isinstance(key, str) or not key:
+            errors.append(f"config/taxonomies.json: {group_name}[{index}] missing key")
+        elif key in seen_keys:
+            errors.append(f"config/taxonomies.json: duplicate {group_name} key {key!r}; first seen at item {seen_keys[key]}")
+        else:
+            seen_keys[key] = index
+        if not isinstance(legacy_code, str) or not legacy_code:
+            errors.append(f"config/taxonomies.json: {group_name}[{index}] missing legacy_code")
+        elif legacy_code in seen_codes:
+            errors.append(f"config/taxonomies.json: duplicate {group_name} legacy_code {legacy_code!r}; first seen at item {seen_codes[legacy_code]}")
+        else:
+            seen_codes[legacy_code] = index
+        if not isinstance(display_order, int) or display_order < 1:
+            errors.append(f"config/taxonomies.json: {group_name}[{index}] display_order must be a positive integer")
+        elif display_order in seen_orders:
+            errors.append(f"config/taxonomies.json: duplicate {group_name} display_order {display_order}; first seen at item {seen_orders[display_order]}")
+        else:
+            seen_orders[display_order] = index
+
+
+def _check_taxonomies(root: Path, errors: list[str]) -> None:
+    try:
+        taxonomies = read_json(root / "config" / "taxonomies.json")
+    except Exception:
+        return
+    _check_taxonomy_group("primary_categories", taxonomies.get("primary_categories"), errors)
+    _check_taxonomy_group("curation_states", taxonomies.get("curation_states"), errors)
+    _check_taxonomy_group("special_flags", taxonomies.get("special_flags"), errors)
+    curation = taxonomies.get("curation_states") if isinstance(taxonomies.get("curation_states"), list) else []
+    flags = taxonomies.get("special_flags") if isinstance(taxonomies.get("special_flags"), list) else []
+    _check_taxonomy_group("a_categories_combined", curation + flags, errors)
+
+
 def _check_duplicate_game_ids(path: Path, records: list[tuple[int, dict[str, Any]]], errors: list[str]) -> None:
     seen: dict[str, int] = {}
     for line_no, record in records:
@@ -159,6 +206,7 @@ def validate(root: Path, strict_warnings: bool = False) -> tuple[list[str], list
     errors: list[str] = []
     warnings: list[str] = []
     _check_config(root, errors)
+    _check_taxonomies(root, errors)
 
     jsonl_records: dict[Path, list[tuple[int, dict[str, Any]]]] = {}
     for path in _jsonl_paths(root):

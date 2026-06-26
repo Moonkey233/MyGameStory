@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Callable
@@ -13,15 +12,19 @@ from export_steam_owned import export_owned_library
 from import_steam_owned import apply_preview as apply_steam_preview
 from import_steam_owned import build_preview as build_steam_preview
 from validate_data import validate
-from vaultlib import load_games_by_id, load_taxonomies, now_iso, read_json, read_jsonl, resolve_root, title_display, write_jsonl
-
-
-@dataclass(frozen=True)
-class CategoryChoice:
-    index: int
-    key: str
-    legacy_code: str
-    display_name: str
+from vaultlib import (
+    TaxonomyChoice as CategoryChoice,
+    format_taxonomy_choices,
+    load_games_by_id,
+    load_primary_category_choices,
+    now_iso,
+    parse_taxonomy_choice,
+    read_json,
+    read_jsonl,
+    resolve_root,
+    title_display,
+    write_jsonl,
+)
 
 
 def default_timestamp() -> str:
@@ -29,45 +32,15 @@ def default_timestamp() -> str:
 
 
 def load_category_choices(root: Path) -> list[CategoryChoice]:
-    raw_taxonomy = load_taxonomies(root)["raw"]
-    choices: list[CategoryChoice] = []
-    for index, item in enumerate(raw_taxonomy.get("primary_categories", []), start=1):
-        choices.append(CategoryChoice(
-            index=index,
-            key=str(item["key"]),
-            legacy_code=str(item["legacy_code"]),
-            display_name=str(item["display_name"]),
-        ))
-    return choices
-
-
-def _category_lookup(choices: list[CategoryChoice]) -> dict[str, CategoryChoice]:
-    lookup: dict[str, CategoryChoice] = {}
-    for choice in choices:
-        lookup[str(choice.index)] = choice
-        lookup[f"{choice.index:02d}"] = choice
-        lookup[choice.key.casefold()] = choice
-        lookup[choice.legacy_code.casefold()] = choice
-        lookup[choice.legacy_code.replace(".", "").casefold()] = choice
-    return lookup
+    return load_primary_category_choices(root)
 
 
 def parse_category_choice(raw_value: str, choices: list[CategoryChoice]) -> CategoryChoice | None:
-    value = raw_value.strip()
-    if not value or value.casefold() in {"s", "skip", "pending"}:
-        return None
-    lookup = _category_lookup(choices)
-    choice = lookup.get(value.casefold())
-    if choice is None:
-        raise ValueError(f"Unknown category input: {raw_value!r}")
-    return choice
+    return parse_taxonomy_choice(raw_value, choices, allow_blank=True)
 
 
 def format_category_help(choices: list[CategoryChoice]) -> str:
-    return "\n".join(
-        f"  {choice.index:>2}. {choice.legacy_code:<4} {choice.key:<24} {choice.display_name}"
-        for choice in choices
-    )
+    return format_taxonomy_choices(choices)
 
 
 def _latest_owned_snapshot(root: Path) -> dict[str, dict[str, Any]]:
@@ -178,7 +151,7 @@ def prompt_classifications(
     skip_rest = False
 
     if new_games:
-        print("\nB 类输入方式：数字 1-17、legacy code 如 B.10、或英文 slug。")
+        print("\nB 类输入方式：数字 1-17、legacy code 如 B.04、或英文 slug。")
         print("直接回车 = 先标记为 pending；? = 重看类别；q = 剩余全部 pending。\n")
         print(format_category_help(choices))
 

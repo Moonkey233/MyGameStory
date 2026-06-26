@@ -95,7 +95,7 @@ Thunder Tier One
 
 ## 后续类别文本导入格式
 
-后续你给 B.03、B.04、A.07 等 OCR 结果时，推荐用纯文本，一个来源一轮，只放一种来源，不要把 Steam API、截图 OCR、人工修正混在同一轮。
+后续你给 B.03、B.06、A.02 等 OCR 结果时，推荐用纯文本，一个来源一轮，只放一种来源，不要把 Steam API、截图 OCR、人工修正混在同一轮。
 
 格式：
 
@@ -106,7 +106,7 @@ The Witcher 3: Wild Hunt
 赛博朋克 2077
 Persona 5 Royal
 
-B.04-♟️策略战术
+B.06-♟️策略战术
 
 Sid Meier's Civilization VI
 Into the Breach
@@ -115,13 +115,13 @@ Into the Breach
 导入命令：
 
 ```powershell
-python scripts/import_classification_text.py --input data\imports\ocr\b03_b04_text.txt --timestamp 20260625T230000+0800
+python scripts/import_classification_text.py --input data\imports\ocr\b03_b06_text.txt --timestamp 20260625T230000+0800
 ```
 
 如果有中文名需要人工绑定 appid，加 alias map：
 
 ```powershell
-python scripts/import_classification_text.py --input data\imports\ocr\b03_b04_text.txt --alias-map data\imports\ocr\b03_b04_alias_map.json --timestamp 20260625T230000+0800
+python scripts/import_classification_text.py --input data\imports\ocr\b03_b06_text.txt --alias-map data\imports\ocr\b03_b06_alias_map.json --timestamp 20260625T230000+0800
 ```
 
 检查 preview 后再应用：
@@ -181,7 +181,7 @@ python scripts/validate_data.py
 A 类建议格式可以先这样发给我，后续我会按同样 preview 机制写入：
 
 ```text
-A.07-🆕未启清单
+A.02-🆕未启清单
 
 游戏名 1
 游戏名 2

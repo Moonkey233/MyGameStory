@@ -9,9 +9,21 @@ from typing import Any, Callable
 from apply_confirmed_classifications import apply_preview as apply_classification_preview
 from apply_confirmed_classifications import build_preview as build_classification_preview
 from build_views import build_views
-from update_steam_library import CategoryChoice, format_category_help, load_category_choices, parse_category_choice
 from validate_data import validate
-from vaultlib import coerce_int, load_games_by_id, now_iso, read_jsonl, resolve_game, resolve_root, title_display, write_jsonl
+from vaultlib import (
+    TaxonomyChoice as CategoryChoice,
+    coerce_int,
+    format_taxonomy_choices,
+    load_games_by_id,
+    load_primary_category_choices,
+    now_iso,
+    parse_taxonomy_choice,
+    read_jsonl,
+    resolve_game,
+    resolve_root,
+    title_display,
+    write_jsonl,
+)
 
 
 @dataclass(frozen=True)
@@ -71,7 +83,7 @@ def parse_category_filter(raw_value: str, choices: list[CategoryChoice]) -> Cate
         return CategoryFilter("unclassified")
     if normalized in {"pending", "needs_review", "suggested", "confirmed"}:
         return CategoryFilter("status", normalized)
-    choice = parse_category_choice(value, choices)
+    choice = parse_taxonomy_choice(value, choices)
     if choice is None:
         return CategoryFilter("unclassified")
     return CategoryFilter("category", choice.key)
@@ -156,7 +168,7 @@ def parse_new_category(raw_value: str, choices: list[CategoryChoice]) -> Categor
         return None
     if not value:
         raise ValueError("empty category input cancels the edit")
-    return parse_category_choice(value, choices)
+    return parse_taxonomy_choice(value, choices)
 
 
 def _base_classification(existing: dict[str, Any] | None, game_id: str) -> dict[str, Any]:
@@ -231,8 +243,8 @@ def _prompt_target(root: Path, rows: list[GameRow], choices: list[CategoryChoice
             raw_select = input_func("选择 idx/appid/game_id: ")
             return select_rows(raw_select, candidates)
         if raw_mode == "2":
-            print("\n当前类别可输入数字、B.10、slug；也可输入 pending / unclassified / all。")
-            print(format_category_help(choices))
+            print("\n当前类别可输入数字、B.04、slug；也可输入 pending / unclassified / all。")
+            print(format_taxonomy_choices(choices))
             raw_filter = input_func("当前类别: ")
             try:
                 category_filter = parse_category_filter(raw_filter, choices)
@@ -254,15 +266,15 @@ def _prompt_target(root: Path, rows: list[GameRow], choices: list[CategoryChoice
 
 
 def _prompt_new_category(choices: list[CategoryChoice], input_func: Callable[[str], str]) -> CategoryChoice | None:
-    print("\n新类别输入方式：数字 1-17、B.10、英文 slug。")
+    print("\n新类别输入方式：数字 1-17、B.04、英文 slug。")
     print("输入 clear/none/pending 可清空 B 类并标为 pending；直接回车取消。")
-    print(format_category_help(choices))
+    print(format_taxonomy_choices(choices))
     while True:
         raw_value = input_func("新类别: ")
         if raw_value.strip() == "":
             raise KeyboardInterrupt("cancelled")
         if raw_value.strip() == "?":
-            print(format_category_help(choices))
+            print(format_taxonomy_choices(choices))
             continue
         try:
             return parse_new_category(raw_value, choices)
@@ -273,7 +285,7 @@ def _prompt_new_category(choices: list[CategoryChoice], input_func: Callable[[st
 def run(args: argparse.Namespace) -> int:
     root = resolve_root(args.root)
     timestamp = args.timestamp or default_timestamp()
-    choices = load_category_choices(root)
+    choices = load_primary_category_choices(root)
     rows = load_rows(root)
 
     if args.from_category:

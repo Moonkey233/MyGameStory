@@ -16,8 +16,10 @@ class UpdateSteamLibraryTests(unittest.TestCase):
         choices = load_category_choices(PROJECT_ROOT)
 
         self.assertEqual(parse_category_choice("1", choices).key, "action_combat")
-        self.assertEqual(parse_category_choice("B.10", choices).key, "narrative_adventure")
-        self.assertEqual(parse_category_choice("b10", choices).key, "narrative_adventure")
+        self.assertEqual(parse_category_choice("4", choices).key, "narrative_adventure")
+        self.assertEqual(parse_category_choice("B.04", choices).key, "narrative_adventure")
+        self.assertEqual(parse_category_choice("b04", choices).key, "narrative_adventure")
+        self.assertEqual(parse_category_choice("B.10", choices).key, "survival_sandbox")
         self.assertEqual(parse_category_choice("narrative_adventure", choices).key, "narrative_adventure")
         self.assertIsNone(parse_category_choice("", choices))
         self.assertIsNone(parse_category_choice("skip", choices))
