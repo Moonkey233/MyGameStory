@@ -103,6 +103,22 @@ After reviewing the preview:
 python scripts/apply_confirmed_classifications.py --apply-preview data\manual\classifications.preview.20260625T213000+0800.jsonl
 ```
 
+For day-to-day category corrections, use the interactive editor:
+
+```powershell
+python scripts/edit_classification.py
+```
+
+It can locate a game by appid, `steam:<appid>`, or title, or list games from a current category/status before selecting rows. New categories accept `1`-`17`, `B.10`, or a slug such as `narrative_adventure`; `clear` removes the B category and marks the record as pending.
+
+Examples:
+
+```powershell
+python scripts/edit_classification.py --appid 1272840 --new-category B.10
+python scripts/edit_classification.py --from-category action_combat
+python scripts/edit_classification.py --from-category pending --list-only
+```
+
 ## Validate
 
 ```powershell

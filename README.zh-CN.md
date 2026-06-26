@@ -115,6 +115,22 @@ python scripts/apply_confirmed_classifications.py --input confirmed_classificati
 python scripts/apply_confirmed_classifications.py --apply-preview data\manual\classifications.preview.20260625T213000+0800.jsonl
 ```
 
+日常纠错或单独改分类，使用交互式编辑器：
+
+```powershell
+python scripts/edit_classification.py
+```
+
+它可以按 appid、`steam:<appid>`、名称定位游戏，也可以先按当前类别或状态列出游戏，再选择行修改。新类别可以输入 `1`-`17`、`B.10`，或 `narrative_adventure` 这样的 slug；输入 `clear` 会清空 B 类并把记录标为 pending。
+
+例子：
+
+```powershell
+python scripts/edit_classification.py --appid 1272840 --new-category B.10
+python scripts/edit_classification.py --from-category action_combat
+python scripts/edit_classification.py --from-category pending --list-only
+```
+
 ## 校验
 
 ```powershell
