@@ -22,6 +22,26 @@ Steam games use `game_id = "steam:<appid>"`, for example `steam:292030`. Game na
 
 Category keys are stable English slugs such as `role_playing`. Legacy codes like `B.03` and display names are presentation metadata only.
 
+## One-Command Steam Update
+
+For normal new purchases, use the interactive updater:
+
+```powershell
+python scripts/update_steam_library.py
+```
+
+It exports the current Steam owned-library data, generates import previews, prints newly detected games, prompts for each new game's B category, applies the previews after confirmation, rebuilds CSV views, and runs validation.
+
+At the category prompt, enter a number (`1`-`17`), a legacy code (`B.10`), or a stable slug such as `narrative_adventure`. Press Enter to leave that game as `pending` for later classification, enter `?` to show the category list again, or enter `q` to mark the remaining new games as pending.
+
+Useful options:
+
+```powershell
+python scripts/update_steam_library.py --preview-only
+python scripts/update_steam_library.py --skip-classification-prompt
+python scripts/update_steam_library.py --yes
+```
+
 ## Steam Imports
 
 First export Steam owned-library data. Credentials are read from environment variables (`STEAM_API_KEY`, `STEAM_ID`) or the ignored local file `scripts/steam_api.local.json`.

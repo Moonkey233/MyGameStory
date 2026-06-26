@@ -98,12 +98,18 @@ def write_owned_csv(path: Path, games: list[dict[str, Any]]) -> None:
 
 def export_owned_library(root: Path, timestamp: str, config_path: Path, output_dir: Path, timeout: int) -> dict[str, Path]:
     api_key, steam_id = load_credentials(config_path)
-    payload = fetch_owned_games(api_key, steam_id, timeout=timeout)
-    games = extract_games(payload)
-
     raw_output = output_dir / f"{timestamp}.raw.json"
     timestamped_csv = output_dir / f"{timestamp}.steam_library_raw.csv"
     latest_csv = output_dir / "steam_library_raw.csv"
+    metadata_output = output_dir / f"{timestamp}.export_metadata.json"
+    existing_timestamped_outputs = [path for path in (raw_output, timestamped_csv, metadata_output) if path.exists()]
+    if existing_timestamped_outputs:
+        existing = ", ".join(str(path) for path in existing_timestamped_outputs)
+        raise FileExistsError(f"Timestamped export output already exists: {existing}")
+
+    payload = fetch_owned_games(api_key, steam_id, timeout=timeout)
+    games = extract_games(payload)
+
     write_json(raw_output, payload)
     write_owned_csv(timestamped_csv, games)
     shutil.copyfile(timestamped_csv, latest_csv)
@@ -118,7 +124,6 @@ def export_owned_library(root: Path, timestamp: str, config_path: Path, output_d
         "game_count": len(games),
         "exported_at": datetime.now().astimezone().isoformat(timespec="seconds"),
     }
-    metadata_output = output_dir / f"{timestamp}.export_metadata.json"
     write_json(metadata_output, metadata)
     return {
         "raw_json": raw_output,
