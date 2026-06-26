@@ -141,6 +141,24 @@ This generates:
 
 Do not manually edit files in `data/derived/`; rerun `build_views.py` instead.
 
+## Stats Reports
+
+Print a comprehensive Markdown report:
+
+```powershell
+python scripts/report_stats.py
+```
+
+Useful variants:
+
+```powershell
+python scripts/report_stats.py --limit 50
+python scripts/report_stats.py --format json
+python scripts/report_stats.py --write-derived
+```
+
+The report includes library totals, category counts, total/average/median playtime, classification coverage, curation states, favorites, recent additions, recently played games, top playtime games, pending/unclassified records, and latest Steam snapshot differences. With `--write-derived`, JSON and CSV report files are written under `data/derived/reports/`.
+
 ## Privacy And Safety
 
 - Do not commit Steam API keys. Use `.env` or environment variables.

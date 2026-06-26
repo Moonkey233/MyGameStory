@@ -18,3 +18,4 @@ data/suggestions/*.preview.*.jsonl
 # Optional generated analysis outputs.
 data/derived/*.parquet
 data/derived/*.xlsx
+data/derived/reports/

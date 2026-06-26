@@ -153,6 +153,24 @@ python scripts/build_views.py
 
 不要手工编辑 `data/derived/` 里的文件；重新运行 `build_views.py` 生成。
 
+## 统计报告
+
+打印完整 Markdown 统计报告：
+
+```powershell
+python scripts/report_stats.py
+```
+
+常用变体：
+
+```powershell
+python scripts/report_stats.py --limit 50
+python scripts/report_stats.py --format json
+python scripts/report_stats.py --write-derived
+```
+
+报告包括库存总量、分类数量、各分类游戏数、总/平均/中位游玩时间、分类覆盖率、个人状态、收藏、最近新增、最近游玩、最长游玩、pending/未分类，以及最新两次 Steam 快照差异。加上 `--write-derived` 后，会把 JSON 和 CSV 报告写到 `data/derived/reports/`。
+
 ## 隐私和安全
 
 - 不要提交 Steam API key。使用 `.env`、环境变量或 `scripts/steam_api.local.json`。
